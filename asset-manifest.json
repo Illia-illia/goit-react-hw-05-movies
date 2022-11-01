@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Illia-illia/goit-react-hw-05-movies/static/css/main.7acaea2f.css",
-    "main.js": "/Illia-illia/goit-react-hw-05-movies/static/js/main.dd1ba114.js",
+    "main.js": "/Illia-illia/goit-react-hw-05-movies/static/js/main.60b33f71.js",
     "index.html": "/Illia-illia/goit-react-hw-05-movies/index.html",
     "main.7acaea2f.css.map": "/Illia-illia/goit-react-hw-05-movies/static/css/main.7acaea2f.css.map",
-    "main.dd1ba114.js.map": "/Illia-illia/goit-react-hw-05-movies/static/js/main.dd1ba114.js.map"
+    "main.60b33f71.js.map": "/Illia-illia/goit-react-hw-05-movies/static/js/main.60b33f71.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.dd1ba114.js"
+    "static/js/main.60b33f71.js"
   ]
 }
