@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 export const Wrap = styled.div`
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
+  background-color: #f5f5f5;
 `;
 
 export const Nav = styled.nav`
@@ -17,9 +19,8 @@ export const Nav = styled.nav`
   line-height: 1.14;
   font-weight: 500;
   letter-spacing: 0.02em;
-  border-bottom: #212121 solid 2px;
-  box-shadow: -2px -5px 18px 2px rgb(17 18 17);
-  background-color: #f5f5f5;
+  border-bottom: #212121 solid 1px;
+  box-shadow: 0 4px 2px -2px gray;
 `;
 
 export const StyledLink = styled(NavLink)`
