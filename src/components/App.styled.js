@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
-export const Wrap = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
-  background-color: #f5f5f5;
+export const Container = styled.div`
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
 `;
 
 export const Nav = styled.nav`
+  background-color: #f5f5f5;
   display: flex;
   gap: 15px;
   padding-left: 15px;

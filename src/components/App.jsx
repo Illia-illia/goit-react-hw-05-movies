@@ -1,25 +1,27 @@
 import { Routes, Route } from 'react-router-dom';
 
-import { Home } from './Home/Home';
-import { Movies } from './Movies/Movies';
-import { NotFound } from './NotFound/NotFound';
+import { SharedLayout } from './SharedLayout';
+import { lazy } from 'react';
 
-import { Wrap, Nav, StyledLink } from './App.styled';
+const Home = lazy(() => import('../pages/Home'));
+const Movies = lazy(() => import('../pages/Movies'));
+const MovieDetails = lazy(() => import('../pages/MovieDetails.js'));
+const Cast = lazy(() => import('../pages/Cast'));
+const Reviews = lazy(() => import('../pages/Reviews'));
+const Error = lazy(() => import('../pages/Errors'));
 
 export const App = () => {
   return (
-    <Wrap>
-      <Nav>
-        <StyledLink to="/" end>
-          Home
-        </StyledLink>
-        <StyledLink to="/movies">Movies</StyledLink>
-      </Nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Home />} />
         <Route path="/movies" element={<Movies />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Wrap>
+        <Route path="/movies/:id" element={<MovieDetails />}>
+          <Route path="cast" element={<Cast />} />
+          <Route path="reviews" element={<Reviews />} />
+        </Route>
+        <Route path="*" element={<Error />} />
+      </Route>
+    </Routes>
   );
 };
