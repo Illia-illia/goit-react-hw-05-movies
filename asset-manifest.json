@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Illia-illia/goit-react-hw-05-movies/static/css/main.5d2122d0.css",
-    "main.js": "/Illia-illia/goit-react-hw-05-movies/static/js/main.0e4bd89a.js",
+    "main.js": "/Illia-illia/goit-react-hw-05-movies/static/js/main.0e857f89.js",
     "static/js/762.065db500.chunk.js": "/Illia-illia/goit-react-hw-05-movies/static/js/762.065db500.chunk.js",
     "static/js/590.7bdcc720.chunk.js": "/Illia-illia/goit-react-hw-05-movies/static/js/590.7bdcc720.chunk.js",
     "static/js/755.6309664a.chunk.js": "/Illia-illia/goit-react-hw-05-movies/static/js/755.6309664a.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/317.462471b7.chunk.js": "/Illia-illia/goit-react-hw-05-movies/static/js/317.462471b7.chunk.js",
     "index.html": "/Illia-illia/goit-react-hw-05-movies/index.html",
     "main.5d2122d0.css.map": "/Illia-illia/goit-react-hw-05-movies/static/css/main.5d2122d0.css.map",
-    "main.0e4bd89a.js.map": "/Illia-illia/goit-react-hw-05-movies/static/js/main.0e4bd89a.js.map",
+    "main.0e857f89.js.map": "/Illia-illia/goit-react-hw-05-movies/static/js/main.0e857f89.js.map",
     "762.065db500.chunk.js.map": "/Illia-illia/goit-react-hw-05-movies/static/js/762.065db500.chunk.js.map",
     "590.7bdcc720.chunk.js.map": "/Illia-illia/goit-react-hw-05-movies/static/js/590.7bdcc720.chunk.js.map",
     "755.6309664a.chunk.js.map": "/Illia-illia/goit-react-hw-05-movies/static/js/755.6309664a.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.5d2122d0.css",
-    "static/js/main.0e4bd89a.js"
+    "static/js/main.0e857f89.js"
   ]
 }
